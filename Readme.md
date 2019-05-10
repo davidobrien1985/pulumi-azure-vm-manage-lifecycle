@@ -1,4 +1,4 @@
-# Shut down Azure VMs on a schedule
+# Manage the lifecycle of Azure VMs (shut down and start)
 
 This repo holds code that can be used to stand up an Azure Function leveraging the open source infrastructure as **real** code tool [Pulumi](https://github.com/pulumi). The Azure Function runs every 5 minutes and checks if there are any Azure VMs that do not have an Azure VM Auto Shutdown schedule attached to them.
 These schedules are specifically important in test and development environments where cloud engineers / cloud administrators are allowed to create VMs manually and might forget to turn them off when they do not need them any more.
