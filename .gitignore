@@ -1,0 +1,5 @@
+*.pyc
+venv/
+**/node_modules
+**/build
+**/infracode/Pulumi.*.yaml
